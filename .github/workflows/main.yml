@@ -13,10 +13,10 @@ jobs:
       pages: write
       id-token: write
 
-  steps:
-  - name: Checkout code
-    uses: actions/checkout@v4
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
 
-  - name: Build the project
-    run: sh gradlew build
+    - name: Build the project
+      run: sh gradlew build
 
